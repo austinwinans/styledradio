@@ -1,4 +1,4 @@
-# Contributing to Hoodie
+# Contributing to styledradio.css
 
 Please take a moment to review this document in order to make the contribution
 process easy and effective for everyone involved.
@@ -7,8 +7,6 @@ Following these guidelines helps to communicate that you respect the time of
 the developers managing and developing this open source project. In return,
 they should reciprocate that respect in addressing your issue, assessing
 changes, and helping you finalize your pull requests.
-
-As for everything else in the project, the contributions to Hoodie are governed by our [Code of Conduct](http://hood.ie/code-of-conduct/).
 
 ## Using the issue tracker
 
