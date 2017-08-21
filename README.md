@@ -1,5 +1,6 @@
 # styledradio.css
 A CSS framework to make radio buttons look like normal buttons
+![screenshot](https://user-images.githubusercontent.com/31176739/29533055-bc167e2c-86b8-11e7-8c54-e025ba13fa1c.PNG)
 ## Getting Started
 ### Methods to download
 - [Download the latest release](https://github.com/austinwinans/styledradio/archive/master.zip)
