@@ -24,13 +24,59 @@ This is what changes the color and shape of the button. The first half of the cl
 `customcolorRectangle` and `customcolorRounded` allow you to define your own colors that are not part of the presets. To use these add the following to your external CSS anywhere **after** the line where you've imported styledradio.css:
 ```
 #buttons .customcolorRectangle {
-    background-color:#f1c40f;
+    background-color: #f1c40f;
 }
 ```
 or
 ```
 #buttons .customcolorRounded {
-    background-color:#f1c40f;
+    background-color: #f1c40f;
 }
 ```
-Then replace the hex value of the `background-color` CSS property with whatever color you'd like
+Then replace the hex value of the `background-color` CSS property with a new color
+## Advanced Usage
+### Changing the `checked` color
+To change the checked color add the following to your external CSS:
+```
+#buttons input:checked + span {
+    background-color: #bdc3c7;
+}
+```
+Then replace the `background-color` CSS property with a new color.
+### Changing the button width
+#### To make your buttons wider but still conform to the text length add the following to your external CSS
+```
+#buttons label span {
+    padding: 8px 20px;
+}
+```
+Then replace the 2nd `padding` CSS property pixel value to a larger value.
+#### To make your buttons a fixed width disregarding text length add the following to your external CSS
+```
+#buttons label {
+    width: 170px;
+}
+```
+Then replace the `width` CSS property value with a new width.
+### Manipulating the font
+#### Changing the font
+```
+#buttons label span {
+    font-family: sans-serif;
+}
+```
+Then replace the `font-family` CSS property value with a different font.
+#### Changing the font color
+```
+#buttons label span {
+    color: #2c3e50
+}
+```
+Then replace the `color` CSS property value with a new color.
+#### Changing the font size
+```
+#buttons label span {
+    font-size: 32px;
+}
+```
+Then replace the `font-size` CSS property value to a smaller or larger value.
