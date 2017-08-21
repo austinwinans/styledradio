@@ -1,0 +1,90 @@
+#buttons {
+    margin:4px;
+
+    float:left;
+}
+
+#buttons label {
+    float:left;
+    margin:4px;
+    background-color:#EFEFEF;
+    border:1px solid #D0D0D0;
+    overflow:auto;
+
+}
+
+#buttons label span {
+    text-align:center;
+    font-size: 12px;
+    padding:8px 20px;
+    display:block;
+}
+
+#buttons label input {
+    position:absolute;
+    top:-20px;
+}
+
+#buttons input:checked + span {
+    background-color:#404040;
+    color:#F7F7F7;
+}
+
+#buttons .yellowRectangle {
+    background-color:#FFCC00;
+    color:#333;
+}
+
+#buttons .blueRectangle {
+    background-color:#00BFFF;
+    color:#333;
+}
+
+#buttons .pinkRectangle {
+    background-color:#FF99FF;
+    color:#333;
+}
+
+#buttons .greenRectangle {
+    background-color:#A3D900;
+    color:#333;
+}
+#buttons .purpleRectangle {
+    background-color:#B399FF;
+    color:#333;
+}
+#buttons .customcolorRectangle {
+    color:#333;
+}
+#buttons .yellowRounded {
+    background-color:#FFCC00;
+    color:#333;
+    border-radius:35px;
+}
+
+#buttons .blueRounded {
+    background-color:#00BFFF;
+    color:#333;
+    border-radius:35px;
+}
+
+#buttons .pinkRounded {
+    background-color:#FF99FF;
+    color:#333;
+    border-radius:35px;
+}
+
+#buttons .greenRounded {
+    background-color:#A3D900;
+    color:#333;
+    border-radius:35px;
+}
+#buttons .purpleRounded {
+    background-color:#B399FF;
+    color:#333;
+    border-radius:35px;
+}
+#buttons .customcolorRounded {
+    color:#333;
+    border-radius: 35px;
+}
