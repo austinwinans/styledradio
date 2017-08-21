@@ -33,3 +33,4 @@ or
     background-color:#f1c40f;
 }
 ```
+Then replace the hex value of the `background-color` CSS property with whatever color you'd like
