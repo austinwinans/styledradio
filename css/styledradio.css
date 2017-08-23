@@ -220,12 +220,6 @@
   font-weight: normal;
   color: white; }
 
-.style5 .icon1 span:before {
-  content: '\f121'; }
-
-.style5 .icon2 span:before {
-  content: '\f1c0'; }
-
 /*style6*/
 @keyframes click-wave {
   0% {
