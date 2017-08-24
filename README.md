@@ -93,6 +93,7 @@ Then in your css file add this:
 and replace the content selector with a font awesome unicode
 ### Style6
 ![style6](https://user-images.githubusercontent.com/31176739/29673596-62702c78-88f8-11e7-835a-828314efad89.PNG)
+
 Put this code into your to use Style6:
 ```
 <div class="style6">
